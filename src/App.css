@@ -1,0 +1,60 @@
+.board{
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: white;
+}
+
+h2.Row1{
+	width: 50px;
+	height: 50px;
+	padding: 15%;
+	cursor: pointer;
+}
+h2.Row2{
+	width: 50px;
+	height: 50px;
+	padding: 15%;
+	cursor: pointer;
+}
+h2.Row3{
+	width: 50px;
+	height: 50px;
+	padding: 15%;
+	cursor: pointer;
+}
+h2.Row4{
+	width: 50px;
+	height: 50px;
+	padding: 15%;
+	cursor: pointer;
+}
+h2.Row5{
+	width: 50px;
+	height: 50px;
+	padding: 15%;
+	cursor: pointer;
+}
+h2.Row6{
+	width: 50px;
+	height: 50px;
+	padding: 15%;
+	cursor: pointer;
+}
+h2.Row7{
+	width: 50px;
+	height: 50px;
+	padding: 15%;
+	cursor: pointer;
+}
+h2.Row8{
+	width: 50px;
+	height: 50px;
+	padding: 15%;
+	cursor: pointer;
+}
+
+h2.offWhite{
+	background-color: black;
+}
