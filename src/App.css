@@ -1,60 +1,129 @@
+.app{
+	display: flex;
+	justify-content: center;
+	flex-flow: column wrap;
+	align-items: center;
+}
 .board{
 	background-color: gray;
 	display: flex;
-	justify-content: center;
 	text-align: center;
 	color: white;
+	font-size: 1.6rem;
 }
 
 h2.Row1{
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	padding: 15%;
 	cursor: pointer;
 }
 h2.Row2{
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	padding: 15%;
 	cursor: pointer;
 }
 h2.Row3{
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	padding: 15%;
 	cursor: pointer;
 }
 h2.Row4{
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	padding: 15%;
 	cursor: pointer;
 }
 h2.Row5{
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	padding: 15%;
 	cursor: pointer;
 }
 h2.Row6{
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	padding: 15%;
 	cursor: pointer;
 }
 h2.Row7{
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	padding: 15%;
 	cursor: pointer;
 }
 h2.Row8{
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	padding: 15%;
 	cursor: pointer;
 }
+h2{
+	color: darkgrey;
+}
 
 h2.offWhite{
-	background-color: black;
+	background-color: green;
+	color: darkgrey;
+}
+
+h2.White{
+	color: white;
+}
+
+h2.Black{
+	color: black;
+}
+
+@media screen and (max-width: 800px) {
+	.app{
+		color: red;
+	}
+	.board{
+		font-size: 1.6rem;
+	}
+}
+@media screen and (max-width: 800px){
+	@media screen and (max-height: 800px) {
+		.app{
+			color: blue;
+		}
+		.board{
+			font-size: 1.2rem;
+		}
+		h2.Row1{
+			width: 50px;
+			height: 50px;
+		}
+		h2.Row2{
+			width: 50px;
+			height: 50px;
+		}
+		h2.Row3{
+			width: 50px;
+			height: 50px;
+		}
+		h2.Row4{
+			width: 50px;
+			height: 50px;
+		}
+		h2.Row5{
+			width: 50px;
+			height: 50px;
+		}
+		h2.Row6{
+			width: 50px;
+			height: 50px;
+		}
+		h2.Row7{
+			width: 50px;
+			height: 50px;
+		}
+		h2.Row8{
+			width: 50px;
+			height: 50px;
+		}
+	}
 }
