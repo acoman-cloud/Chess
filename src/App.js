@@ -35,6 +35,8 @@ function App() {
 			else setTurn('White')
 		}
 	}
+
+	
 	
 	return (
 		<div className='app'>
